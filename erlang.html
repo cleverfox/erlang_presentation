@@ -235,6 +235,12 @@ list-style-type: square;
     </section>
 
     <section class="slide">
+      <h2>Какой он для программиста?</h2>
+      <p class="slide">Все переменные immutable;</p>
+      <p class="slide">Когда нас учили ООП, нам говорили, что все - объект, Erlang, все - процесс;</p>
+    </section>
+
+    <section class="slide">
       <h1>Типы данных в Erlang</h1>
     </section>
 
@@ -419,18 +425,20 @@ true</pre></p>
     </section>
 
 
-    <section class="slide">
-      <h3>Про что надо сказать</h3>
+	<section class="slide">
+      <h2>Полезные тулзы и либы</h2>
       <ul>
-      <li>Pattern matching</li>
-      <li>Arity</li>
-      <li>List comprehensions</li>
-      <li>Память</li>
+      <li><a href="https://github.com/yrashk/kerl">kerl</a> - устрановщик виртуальной машины Erlang</li>
+      <li><a href="https://github.com/rebar/rebar.git">rebar</a> - система сборки, почитать про него можно <a href="http://erlang-russian.org/post/152">тут</a></li>
+      <li><a href="https://github.com/rustyio/sync.git">sync</a> - приложние делающее hot code change удобным</li>
+      <li><a href="https://github.com/basho/lager.git">lager</a> - система логирования</li>
+      <li><a href="https://github.com/talentdeficit/jsx.git">jsx</a> - JSON генератор/парсер</li>
+      <li><a href="https://github.com/wg/epgsql.git">epgsql</a> - драйвер PostgreSQL</li>
+      <li><a href="https://github.com/comtihon/mongodb-erlang">mongodb-erlang</a> - драйвер MongoDB</li>
+      <li><a href="https://github.com/wooga/eredis.git">eredis</a> - драйвер Redis</li>
+      <li><a href="https://github.com/devinus/poolboy.git">poolboy</a> - Connection pool. Я использую его для Redis, PostgreSQL и MongoDB</li>
       </ul>
-    </section>
-  
-    
-    
+    </section>    
     
 <style>
 pre {
